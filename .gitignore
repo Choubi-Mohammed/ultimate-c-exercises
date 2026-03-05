@@ -1,0 +1,39 @@
+# Compiled binaries
+
+a.out
+*.out
+*.exe
+*.o
+*.so
+*.a
+
+# Object / build folders
+
+build/
+bin/
+
+# Debug files
+
+*.dSYM/
+*.stackdump
+
+# Editor / IDE files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+
+.DS_Store
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*~
+
