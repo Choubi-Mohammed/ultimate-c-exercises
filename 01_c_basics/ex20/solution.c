@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/06 11:24:35 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/06 11:41:25 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/06 11:43:51 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 int countDigit(long long num)
 {
 	int counter = 0;
-	int rem = 0;
 	while(num != 0)
 	{
-		rem = num % 10;
 		num = num / 10;
 		counter++;
 	}
