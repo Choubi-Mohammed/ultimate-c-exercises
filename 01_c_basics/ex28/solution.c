@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/07 17:08:02 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/07 17:16:22 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/07 17:20:29 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ int main()
 		j++;
 	}
 
-	int i = 0;
-	int max = 0;
-	int min = arr[i];
+	int max = arr[0];
+	int min = arr[0];
 
+	int i = 1;
 	while(i < 6)
 	{
 		if(arr[i] > max)
