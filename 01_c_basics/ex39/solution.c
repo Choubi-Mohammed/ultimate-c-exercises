@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/08 16:53:06 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/08 17:06:26 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/08 21:16:37 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,9 +40,10 @@ int main()
 	int j = 0;
 	while(j < 3)
 	{
+		printf("Student %d : \n",j+1);
 		printf("Name : %s\n",student[j].name);
 		printf("Roll number : %d\n",student[j].roll_nbr);
-		printf("Marks : %.2f%\n",student[j].marks);
+		printf("Marks : %.2f%\n\n",student[j].marks);
 		j++;
 	}
 
