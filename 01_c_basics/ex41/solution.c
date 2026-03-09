@@ -6,13 +6,13 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/09 10:14:11 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/09 11:07:44 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/09 11:08:47 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-struct stStudent
+struct stCar
 {
 	int model_year;
 	char color[20];
@@ -20,9 +20,9 @@ struct stStudent
 
 int main()
 {
-	struct stStudent s1;
+	struct stCar s1;
 
-	struct stStudent *s2 = &s1;
+	struct stCar *s2 = &s1;
 
 	printf("Enter Car Model Year: ");
 	scanf("%d",&(*s2).model_year);
