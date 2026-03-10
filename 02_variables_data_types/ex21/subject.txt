@@ -1,0 +1,5 @@
+Exercise 21: Exponential Notation
+
+This exercise demonstrates the use of exponential (scientific) notation, which is useful for representing numbers that are either extremely large or extremely small.
+
+Problem Statement: Declare a double variable and assign it a very large or small number. Print its value using exponential notation (%e).
