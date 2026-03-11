@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/11 11:14:04 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/11 11:28:43 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/11 11:31:30 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,11 @@ int main()
 			res = a * b;
 			break;
 		case '/' :
-			res = a / b;
+	        if (b != 0) {
+				res = a / b;
+            } else {
+                printf("Error: Division by zero is not allowed.\n");
+            }
 			break;
 		default :
 			printf("The operator not found!\n");
