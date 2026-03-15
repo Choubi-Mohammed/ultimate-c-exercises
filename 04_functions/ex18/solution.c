@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/15 17:16:52 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/15 17:24:18 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/15 17:25:48 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ int opreation_on_data(int a,int b,int (*opr)(int,int))
 int main()
 {
 	int a = 50, b = 15;
-	int add_opr = opreation_on_data(a,b,&add);
-	int subs_opr = opreation_on_data(a,b,&subs);
+	int add_opr = opreation_on_data(a,b,add);
+	int subs_opr = opreation_on_data(a,b,subs);
 
 
 	printf("a = %d,b = %d\n",a,b);
