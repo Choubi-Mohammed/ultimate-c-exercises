@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/19 14:48:01 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/19 15:17:23 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/19 15:20:59 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,19 @@ int main()
 	}
 	printf("\n");
 
-
-
+	return 0;
 }
+
+/*
+Array deletion is essentially the reverse of insertion:
+
+    Shifting (The Critical Step): The loop for (i = index; i < size - 1; i++) starts at
+	the index where the deletion is to occur (index). Inside the loop, arr[i] = arr[i + 1];
+	copies the element at the next index (i+1) into the current index (i). This action
+	immediately overwrites the element being deleted and shifts all subsequent elements to the left.
+
+    Size Update: The logical size of the array (size) is decremented. Although the array
+	element at the last physical position remains (it’s a duplicate of the previous element),
+	it is now outside the logical bounds of the array and will not be printed in the output loop.
+
+*/
