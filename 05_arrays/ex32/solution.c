@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/28 08:51:08 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/28 09:01:46 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/28 10:01:50 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,4 @@ int main()
     printf("Array after removing duplicates (new size %d): ",size);
     print_arr(arr,size);
 
-    return 0;
 }
