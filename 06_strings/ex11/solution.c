@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/30 07:09:50 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/30 07:14:58 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/03/30 07:16:02 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,10 @@ int main()
 	int counter = count_sep_ch(str,sepch);
 
 	printf("String : %s\n",str);
-	printf("Characeter : %c\n",sepch);
-	printf("The character %c appears %d times in the string.\n",sepch,counter);
 
+	printf("Characeter : %c\n",sepch);
+
+	printf("The character %c appears %d times in the string.\n",sepch,counter);
+	
 	return (0);
 }
