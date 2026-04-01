@@ -6,20 +6,11 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/01 09:00:29 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/01 10:43:50 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/01 10:51:33 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-
-int tt_strlen(char str[])
-{
-	int i = 0 ;
-	while(str[i] != '\0')
-		i++;
-	return i;
-}
-
 int first_acc(char str[],char target,int start_i)
 {
 	int i = start_i;
