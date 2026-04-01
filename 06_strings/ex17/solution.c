@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/03/31 16:49:52 by shobeedev               shobee4ever      */
-/*   Updated: 2026/03/31 17:47:17 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/01 13:00:47 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main()
 {
-	char str[] = "  This  is   a  test.   ";
+	char str[] = "C  programming   is   fun";
 
 	int read_i = 0,write_i = 0;
 	bool inword = false;
@@ -32,6 +32,9 @@ int main()
 		}
 		read_i++;
 	}
-	str[write_i-1] = '\0';
+	if(str[write_i - 1] == ' ')
+		str[write_i-1] = '\0';
+	str[write_i] = '\0';
+
 	printf("Normalized string: \"%s\"\n", str);
 }
