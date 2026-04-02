@@ -1,4 +1,4 @@
-```markdown
+markdown
 # 📚 Ultimate C Exercises
 
 <div align="center">
@@ -116,4 +116,4 @@ If you have any questions, encounter issues, or want to suggest new exercise top
 Made with ❤️ by Choubi-Mohammed
 
 </div>
-```
+
