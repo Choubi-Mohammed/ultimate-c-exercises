@@ -45,6 +45,3 @@ These challenges focus on mastering:
 28. [Exercise 28: String to Integer (atoi)](https://github.com/Choubi-Mohammed/ultimate-c-exercises/tree/main/06_strings/ex28)
 29. [Exercise 29: Integer to String (itoa)](https://github.com/Choubi-Mohammed/ultimate-c-exercises/tree/main/06_strings/ex29)
 30. [Exercise 30: URL Parser (Simple)](https://github.com/Choubi-Mohammed/ultimate-c-exercises/tree/main/06_strings/ex30)
-    Exercise 29: Integer to String (itoa)
-    Exercise 30: URL Parser (Simple)  https://github.com/Choubi-Mohammed/ultimate-c-exercises/tree/main/06_strings/ex30
-
