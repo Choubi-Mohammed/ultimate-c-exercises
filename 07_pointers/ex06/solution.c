@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/03 11:50:56 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/03 11:54:44 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/03 11:56:25 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ int main()
 	int i = 0;
 	while(i < 5 )
 	{
-		//printf("Element %d : %d\n",i,*(ptr + i));
-		printf("Element %d : %d\n",i,ptr[i]);
+		printf("Element %d : %d\n",i,*(ptr + i));
+		//printf("Element %d : %d\n",i,ptr[i]); // its same as above.
 		i++;
 	}
 
