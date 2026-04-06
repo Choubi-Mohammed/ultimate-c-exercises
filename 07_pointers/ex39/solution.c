@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/05 13:01:10 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/05 18:07:13 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/05 18:12:37 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,14 @@ int main()
 	int min = 2147483647,miin = 2147483647;
 
 	int i = 0;
-	while(i < size-1)
+	while(i < size)
 	{
 		if(max < ptr[i])
 		{
 			maax = max;
 			max = ptr[i];
-		}
+		}else if(ptr[i] > maax && max != ptr[i])
+			maax = ptr[i];
 		if(min > ptr[i])
 		{
 			miin = min;
