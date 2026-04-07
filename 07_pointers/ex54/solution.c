@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/07 09:42:24 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/07 10:02:08 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/07 10:08:10 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,8 @@ int most_freq(int *ptr,int size)
 			if(ptr[i] == ptr[j])
 			{
 				count++;
-			}
+			}else
+				break;
 			j++;
 		}
 		if(most < count)
