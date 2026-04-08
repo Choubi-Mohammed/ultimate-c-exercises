@@ -1,12 +1,10 @@
-markdown
 # 📚 Ultimate C Exercises
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/Choubi-Mohammed/ultimate-c-exercises?style=for-the-badge)](https://github.com/Choubi-Mohammed/ultimate-c-exercises/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Choubi-Mohammed/ultimate-c-exercises?style=for-the-badge)](https://github.com/Choubi-Mohammed/ultimate-c-exercises/network)
-[![GitHub issues](https://img.shields.io/github/issues/Choubi-Mohammed/ultimate-c-exercises?style=for-the-badge)](https://github.com/Choubi-Mohammed/ultimate-c-exercises/issues)
-[![GitHub license](https://img.shields.io/github/license/Choubi-Mohammed/ultimate-c-exercises?style=for-the-badge)](LICENSE) <!-- TODO: Add a LICENSE file, then link it here. E.g., MIT, Apache 2.0. -->
+[![GitHub stars](https://img.shields.io/github/stars/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/network)
+[![GitHub issues](https://img.shields.io/github/issues/justshobee/ultimate-c-exercises?style=for-the-badge)](https://github.com/justshobee/ultimate-c-exercises/issues)
 
 **A comprehensive collection of C programming exercises designed to solidify fundamental concepts through hands-on practice.**
 
@@ -106,7 +104,7 @@ This project is currently unlicensed. Please consider adding a `LICENSE` file (e
 
 ## 📞 Support & Contact
 
-If you have any questions, encounter issues, or want to suggest new exercise topics, please open an issue on the [GitHub Issues page](https://github.com/Choubi-Mohammed/ultimate-c-exercises/issues).
+If you have any questions, encounter issues, or want to suggest new exercise topics, please open an issue on the [GitHub Issues page](https://github.com/justshobee/ultimate-c-exercises/issues).
 
 ---
 
@@ -114,7 +112,7 @@ If you have any questions, encounter issues, or want to suggest new exercise top
 
 **⭐ Star this repo if you find it helpful for your C programming journey!**
 
-Made with ❤️ by Choubi-Mohammed
+Made with ❤️ by justshobee
 
 </div>
 
