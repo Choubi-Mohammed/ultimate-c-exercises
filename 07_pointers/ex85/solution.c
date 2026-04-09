@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/09 10:04:02 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/09 10:31:35 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/09 10:35:19 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,11 +43,27 @@ char *remove_spec_char(char *s,char target)
 	}
 	return str;
 }
+char *remove_ch_m2(char *s,char tar)
+{
+	int read_i = 0,write_i = 0;
+	while(s[read_i] != '\0')
+	{
+		if(s[read_i] != tar)
+		{
+			s[write_i] = s[read_i];
+			write_i++;
+		}
+		read_i++;
+	}
+	s[write_i] = '\0';
+
+	return s;
+}
 int main(int count,char *strs[])
 {
 	if(count == 3)
 	{
-		char *s = remove_spec_char(strs[1],*strs[2]);
+		char *s = remove_ch_m2(strs[1],*strs[2]);
 		printf("String after removing '%c' : \"%s\"\n",*strs[2],s);
 	}
 	return 0;
