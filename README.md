@@ -327,11 +327,6 @@ We welcome contributions! If you have:
 
 ---
 
-## License
-
-This project is currently unlicensed. Please consider checking [choosealicense.com](https://choosealicense.com/) for license options if needed.
-
----
 
 ## Acknowledgments
 
