@@ -6,7 +6,7 @@
 /*   By: shobeedev <https://shobee.space/>                   / __/   ___) |   */
 /*                                                          |_____| |____/    */
 /*   Created: 2026/04/11 11:53:00 by shobeedev               shobee4ever      */
-/*   Updated: 2026/04/11 12:16:22 by shobeedev            tfaaty fi l3oolaa   */
+/*   Updated: 2026/04/11 12:17:25 by shobeedev            tfaaty fi l3oolaa   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,9 @@ int main()
 
 	find_min_max(data,size,&min_ptr,&max_ptr);
 
-	printf("Min = %d\n",min_ptr);
-	printf("Max = %d\n",max_ptr);
+    printf("The array is: {15, 7, 22, 1, 9}\n");
+    printf("Minimum value found: %d\n", min_ptr);
+    printf("Maximum value found: %d\n", max_ptr);
 
 	return 0;
 }
